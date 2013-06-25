@@ -15,6 +15,10 @@ body {
   padding: 0 50px;
 }
 
+.courses {
+  padding: 0;
+}
+
 a {
   color: #606e67;
   text-decoration: none;
