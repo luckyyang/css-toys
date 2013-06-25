@@ -1,0 +1,95 @@
+body {
+  background: #EFEDDF;
+  color: #636365;
+  font: 62.5%/1.5 "OpenSansRegular",Helvetica,Arial,sans-serif;
+}
+
+.wrapper {
+  min-height: 600px;
+  margin-top: 60px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 50px;
+}
+
+a {
+  color: #606e67;
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+}
+
+.course {
+  float: left;
+  width: 49%;
+  margin: 0 0 2%;
+  position: relative;
+}
+
+.course:nth-child(odd) {
+  clear: left;
+}
+
+.course:nth-child(2n) {
+  float: right;
+}
+
+.course > a {
+  min-height: 85px;
+}
+
+.course .course-badge {
+  position: absolute;
+  left: 3px;
+  top: 2px;
+}
+
+.courses .course .course-content {
+  position: relative;
+  padding: 5px 10px 6px 65px;
+}
+
+.course .course-name {
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #606e67;
+  font-size: 2.6em;
+  letter-spacing: -1px;
+  margin: 0 10px 0 0;
+}
+
+.h4 {
+  font: 2.5em "OpenSansLight",Helvetica,Arial,sans-serif;
+}
+
+.course .course-control {
+  margin: 0;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  background: #228b9b;
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  font: 1.5em "OpenSansBold",Helvetica,Arial,sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-a {
+  background: #f6f5ed;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  display: block;
+  padding: 10px;
+}
