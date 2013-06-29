@@ -1,0 +1,188 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  vertical-align: baseline;
+  background: #EFEDDF;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  min-height: 600px;
+}
+
+.container {
+  width: 910px;
+  margin: 60px auto;
+}
+.discover-courses-list {
+  margin: 0 auto;
+}
+
+.discover-courses-list .course-box {
+  text-align: left;
+  margin: 15px 30px 15px 0;
+}
+
+.course-box {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.45);
+  transition: box-shadow 0.2s;
+  white-space: normal;
+}
+
+.course-box .mask {
+  color: #353535;
+  display: block;
+  font-size: small;
+  width: 270px;
+}
+
+img {
+  max-width: 100%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.course-box .mask .title {
+  display: block;
+  font-size: 14px;
+  line-height: 1.2;
+  min-height: 52px;
+  overflow: hidden;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.course-box .mask .details {
+  display: block;
+  overflow: hidden;
+  padding: 5px 10px 10px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.course-box .mask .price {
+  color: #5D951F;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.course-box .mask .small-rating {
+  vertical-align: top;
+}
+
+.small-rating {
+  background: url("./images/sprites.png?v=10") -120px -1199px;
+  line-height: 0;
+  width: 85px;
+  display: inline-block;
+  text-align: left;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.small-rating span {
+  display: inline-block;
+  background: url("./images/sprites.png?v=10") -120px -1212px;
+  height: 13px;
+  line-height: 14px;
+}
+
+.course-box .mask .stu:before {
+  background-position: -20px -210px;
+  float: left;
+  height: 13px;
+  margin: -2px 4px 0 0;
+  width: 20px;
+}
+
+.spb:before, spa:after {
+  background-image: url("./images/sprites.png?v=10");
+  content: '';
+}
+
+.course-box .mask .stu {
+  color: #555;
+  float: right;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.course-box .mask .two {
+  padding-bottom: 11px;
+}
+
+.course-box .mask .instructors {
+  border-top: 1px solid #eee;
+  display: block;
+  margin: 0 10px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.course-box .mask .ins-thumb {
+  float: left;
+  width: 25px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.course-box .mask .instructors .r {
+  margin-left: 33px;
+  display: block;
+}
+
+.course-box .mask .two .ins-name:first-child {
+  margin-bottom: 3px;
+}
+
+.course-box .mask .ins-name {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.ellipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.course-box .mask .ins-job-title {
+margin-top: 2px;
+font-size: 12px;
+line-height: 1.2;
+font-family: georgia;
+font-weight: lighter;
+color: #555;
+font-style: italic;
+}

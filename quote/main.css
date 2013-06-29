@@ -1,0 +1,11 @@
+q {
+  quotes: '“' '”' '‘' '’';
+}
+q:before {
+  content: '“';
+  content: open-quote;
+}
+q:after {
+  content: '”';
+  content: close-quote;
+}

@@ -1,0 +1,30 @@
+.a {
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  border: 2px solid red;
+  float: left;
+  /* float: right; */
+}
+.b {
+  width: 200px;
+  height: 200px;
+  margin: 49px auto;
+  border: 2px solid green;
+  float: left;
+  /* float: right; */
+}
+.b p {
+  background: rgba(0,0,0,0.3);
+  color: #347568;
+  font-weight: bold;
+  border: 2px solid blue;
+  margin: 0;
+  float: left;
+  /* float: right; */
+}
+span {
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  margin: 30px;
+}
