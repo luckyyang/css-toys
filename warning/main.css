@@ -1,0 +1,7 @@
+p {
+  background: #fff6cc url('warning.png') 15px 50% no-repeat;
+  color: black;
+  border: 1px solid #ffd100;
+  border-radius: 6px;
+  padding: 10px 10px 10px 38px;
+}

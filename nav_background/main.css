@@ -1,0 +1,62 @@
+ul {
+  background: #f4f4f4;
+  background: linear-gradient(#fff, #eee);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+  height: 22px;
+  list-style-type: none;
+  margin: 0 0 20px 0;
+  padding: 0 4px 0 0;
+}
+
+li {
+  float: left;
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  text-indent: -9999px;
+}
+
+li a {
+  background: url('controls.png') 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.play {
+  background: #f4f4f4;
+  background: linear-gradient(#fff, #eee);
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 7px;
+  position: relative;
+  top: -5px;
+  left: -4px;
+}
+
+.play a:hover {
+  background-position: 0 -16px;
+}
+
+.back a {
+  background-position: -16px 0;
+}
+.back a:hover {
+  background-position: -16px -16px;
+}
+
+.stop a {
+  background-position: -32px 0;
+}
+.stop a:hover {
+  background-position: -32px -16px;
+}
+
+.forward a {
+  background-position: -48px 0;
+}
+.forward a:hover {
+  background-position: -48px -16px;
+}

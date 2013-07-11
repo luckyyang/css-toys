@@ -1,0 +1,43 @@
+body {
+  font: 13px/20px "Droid Sans",Arial,"Helvetica Neue","Lucida Grande",sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+li:first-child a {
+  border-left: none;
+  border-radius: 4px 0 0 4px;
+}
+
+li:last-child a {
+  border-right: none;
+  border-radius: 0 4px 4px 0;
+}
+
+a {
+  background-color: #272B3F;
+  background: linear-gradient(#464B70, #272B3F);
+  text-decoration: none;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 30px;
+  display: block;
+  /* border: 1px solid #585D70; */
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transition-property: color,border,box-shadow;
+}
+
+a:hover {
+  background: #2A3046;
+}
