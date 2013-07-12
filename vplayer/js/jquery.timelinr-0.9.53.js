@@ -22,8 +22,8 @@ jQuery.fn.timelinr = function(options){
 		issuesSpeed: 				'fast',				// value: integer between 100 and 1000 (recommended) or 'slow', 'normal' or 'fast'; default to fast
 		issuesTransparency: 		0.2,				// value: integer between 0 and 1 (recommended), default to 0.2
 		issuesTransparencySpeed: 	500,				// value: integer between 100 and 1000 (recommended), default to 500 (normal)
-		prevButton: 				'#previous-release',			// value: any HTML tag or #id, default to #prev
-		nextButton: 				'#next-release',			// value: any HTML tag or #id, default to #next
+		prevButton: 				'#prev',			// value: any HTML tag or #id, default to #prev
+		nextButton: 				'#next',			// value: any HTML tag or #id, default to #next
 		arrowKeys: 					'false',			// value: true | false, default to false
 		startAt: 					1,					// value: integer, default to 1 (first)
 		autoPlay: 					'false',			// value: true | false, default to false
@@ -50,7 +50,8 @@ jQuery.fn.timelinr = function(options){
 		// set positions!
 		if(settings.orientation == 'horizontal') {	
 			$(settings.issuesDiv).width(widthIssue*howManyIssues);
-			$(settings.datesDiv).width(widthDate*howManyDates).css('marginLeft',widthContainer/2-widthDate/2);
+			$(settings.datesDiv).width(widthDate*howManyDates).css('paddingLeft',widthContainer/2-widthDate/2);
+			$(settings.datesDiv).width(widthDate*howManyDates).css('paddingRight',widthContainer/2-widthDate/2);
 			var defaultPositionDates = parseInt($(settings.datesDiv).css('marginLeft').substring(0,$(settings.datesDiv).css('marginLeft').indexOf('px')));
 		} else if(settings.orientation == 'vertical') {
 			$(settings.issuesDiv).height(heightIssue*howManyIssues);
