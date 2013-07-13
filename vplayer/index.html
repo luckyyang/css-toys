@@ -7,15 +7,12 @@
     <title>VPlayer</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="js/jquery.timelinr-0.9.53.js"></script>
-    <script>
-      $(function(){
-        $().timelinr({
-          arrowKeys: 'true'
-        })
-      });
-    </script>
+    <!-- jQuery -->
+    <script src="vendor/lib/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+
+    <!-- BEGIN TimelineJS -->
+    <script src="vendor/js/storyjs-embed.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -38,77 +35,19 @@
           </li>
         </ul>
 
-        <div id="timeline">
-          <ul id="issues">
-            <li class="current-release-info">
-            <img src="images/for_ios.jpg">
-            <div class="info-container">
-              <p class="release-date"> February 12, 2013 </p>
-              <h1 class="release-title">VPlayer 0.x for IOS</h1>
-              <p class="release-content">The best video player for iOS!</p>
-              <a class="release-more" href="products.html"> More </a>
-            </div>
-            </li>
-            <li class="current-release-info">
-            <img src="images/index-android.jpg">
-            <div class="info-container">
-              <p class="release-date"> February 12, 2013 </p>
-              <h1 class="release-title">VPlayer 0.x for IOS</h1>
-              <p class="release-content">The best video player for Android!
-              VPlayer 3.x with a new design! Watch videos with HW accelerated
-              decoding and rendering to HD MKV/AVI/MOV/FLV/TS/M4V/3GP for most
-              Android devices.</p>
-              <a class="release-more" href="products.html"> More </a>
-            </div>
-            </li>
-            <li class="current-release-info">
-            <img src="images/android_2.0.png">
-            <div class="info-container">
-              <p class="release-date"> February 12, 2013 </p>
-              <h1 class="release-title">VPlayer 0.x for IOS</h1>
-              <p class="release-content">The best video player for iOS!</p>
-              <a class="release-more" href="products.html"> More </a>
-            </div>
-            </li>
-            <li class="current-release-info">
-            <img src="images/android_1.2.8.png">
-            <div class="info-container">
-              <p class="release-date"> February 12, 2013 </p>
-              <h1 class="release-title">VPlayer 0.x for IOS</h1>
-              <p class="release-content">The best video player for iOS!</p>
-              <a class="release-more" href="products.html"> More </a>
-            </div>
-            </li>
-            <li class="current-release-info">
-            <img src="images/android_0.7.7.png">
-            <div class="info-container">
-              <p class="release-date"> February 12, 2013 </p>
-              <h1 class="release-title">VPlayer 0.x for IOS</h1>
-              <p class="release-content">The best video player for iOS!</p>
-              <a class="release-more" href="products.html"> More </a>
-            </div>
-            </li>
-          </ul>
-          <a href="#" id="next">
-            <p class="slide-arrow"> &gt; </p>
-            <p class="slide-date"> NOVEMBER 22, <br>2013 </p>
-            <p class="slide-version"> VPlayer 4.x </p>
-          </a>
-          <a href="#" id="prev">
-            <p class="slide-arrow"> &lt; </p>
-            <p class="slide-date"> NOVEMBER 22, <br>2012 </p>
-            <p class="slide-version"> VPlayer 3.x </p>
-          </a>
-          <ul id="dates">
-            <li><a href="products.html">VPlay 0.x for IOS</a></li>
-            <li><a href="products.html">VPlayer 3.x</a></li>
-            <li><a href="products.html">VPlayer 2.0</a></li>
-            <li><a href="products.html">VPlayer 1.2.8</a></li>
-            <li><a href="products.html">VPlayer 0.7.7</a></li>
-          </ul>
-        </div>
-        <div class=footer>
-          <ul class="foot-bar">
+    <!-- BEGIN Timeline Embed -->
+    <div id="timeline-embed"></div>
+    <script type="text/javascript">
+      var timeline_config = {
+        width: "100%",
+        height: "650",
+        source: 'timeline.json'
+      }
+    </script>
+    <!-- END Timeline Embed-->
+
+    <div class=footer>
+      <ul class="foot-bar">
             <li class="foot-logo foot-item">
             <a href="index.html" title="home page"><img src="images/ft_logo.png"></a>
             <h3>VPlayer</h3>
@@ -141,5 +80,6 @@
         <p class="legal-info"> © 2012 Xuan Yi Xia Inc. All rights reserved </p>
       </div>
     </div>
+    <script src="vendor/js/storyjs-embed.js"></script>
   </body>
 </html>
