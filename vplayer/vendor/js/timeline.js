@@ -5222,7 +5222,7 @@ if(typeof VMM != 'undefined' && typeof VMM.Slider == 'undefined') {
 			positionSlides();
 			
 			// POSITION NAV
-			VMM.Lib.css(navigation.nextBtn, "left", (current_width - config.slider.nav.width));
+			VMM.Lib.css(navigation.nextBtn, "left", (current_width - config.slider.nav.width - 50));
 			VMM.Lib.height(navigation.prevBtn, config.slider.height);
 			VMM.Lib.height(navigation.nextBtn, config.slider.height);
 			VMM.Lib.css(navigation.nextBtnContainer, "top", ( (config.slider.height/2) - (config.slider.nav.height/2) ) + 10 );
