@@ -6,7 +6,7 @@
     {
       "startDate":"2010,10,10",
       "headline":"VPlayer 0.7.7",
-      "text":"<p>The first version of VPlayer. It is very easy to use and support DivX/Xvid, flv, rmvb, avi, mkv, wmv and mp4 video formats.</p><a href=\"products.html\">More</a>",
+      "text":"<p>The first version of VPlayer. It is very easy to use and support DivX/Xvid, flv, rmvb, avi, mkv, wmv and mp4 video formats.</p><a href=\"products.html\">More</a> <hr class=\"soften\"> <a href=\"\" class=\"app-link\" style=\" background: url('images/app.jpg') 0 -46px no-repeat; background-size: 100%; display: inline-block; height: 46px; width: 138px; vertical-align: middle; \"></a> <img src=\"images/banner-ios-barcode.png\" class=\"swipe-code\" style=\" margin-left: 30px; vertical-align: middle; \"",
       "asset":
       {
         "media": "images/android_0.7.7.png"
@@ -15,7 +15,7 @@
     {
       "startDate":"2012,2,21",
       "headline":"VPlayer 1.2.8",
-      "text":"<p>VPlayer 1.2.8 is the next generation of VPlayer, which brings experimental HW accelerated decoding and rendering to HD MKV/AVI/MOV/FLV/TS/M4V/3GP for most Android devices.</p><a href=\"products.html\">More</a>",
+      "text":"<p>VPlayer 1.2.8 is the next generation of VPlayer, which brings experimental HW accelerated decoding and rendering to HD MKV/AVI/MOV/FLV/TS/M4V/3GP for most Android devices.</p><a href=\"products.html\">More</a><hr class=\"soften\"> <a href=\"\" class=\"app-link\" style=\" background: url('images/app.jpg') 0 -46px no-repeat; background-size: 100%; display: inline-block; height: 46px; width: 138px; vertical-align: middle; \"></a> <img src=\"images/banner-ios-barcode.png\" class=\"swipe-code\" style=\" margin-left: 30px; vertical-align: middle; \"",
       "asset":
       {
         "media": "images/android_1.2.8.png"
@@ -24,7 +24,7 @@
     {
       "startDate":"2012,8,13",
       "headline":"VPlayer 2.0",
-      "text":"<p>Just for Chinese users!</p><a href=\"products.html\">More</a>",
+      "text":"<p>Just for Chinese users!</p><a href=\"products.html\">More</a><hr class=\"soften\"> <a href=\"\" class=\"app-link\" style=\" background: url('images/app.jpg') 0 -46px no-repeat; background-size: 100%; display: inline-block; height: 46px; width: 138px; vertical-align: middle; \"></a> <img src=\"images/banner-ios-barcode.png\" class=\"swipe-code\" style=\" margin-left: 30px; vertical-align: middle; \"",
       "asset":
       {
         "media": "images/android_2.0.png"
@@ -33,7 +33,7 @@
     {
       "startDate":"2012,11,22",
       "headline":"VPlayer 3.0",
-      "text":"<p> The best video player for Android! VPlayer 3.x with a new design! Watch videos with HW accelerated decoding and rendering to HD MKV/AVI/MOV/FLV/TS/M4V/3GP for most Android devices.</p><a href=\"products.html\">More</a>",
+      "text":"<p> The best video player for Android! VPlayer 3.x with a new design! Watch videos with HW accelerated decoding and rendering to HD MKV/AVI/MOV/FLV/TS/M4V/3GP for most Android devices.</p><a href=\"products.html\">More</a><hr class=\"soften\"> <a href=\"\" class=\"app-link\" style=\" background: url('images/app.jpg') 0 -46px no-repeat; background-size: 100%; display: inline-block; height: 46px; width: 138px; vertical-align: middle; \"></a> <img src=\"images/banner-ios-barcode.png\" class=\"swipe-code\" style=\" margin-left: 30px; vertical-align: middle; \">",
       "asset":
       {
         "media": "images/index-android.jpg"
@@ -42,7 +42,7 @@
     {
       "startDate":"2013,2,12",
       "headline":"VPlayer 0.x for IOS",
-      "text":"<p> The best video player for iOS!</p><a href=\"products.html\">More</a>",
+      "text":"<p>The best video player for iOS!</p> <a href=\"products.html\">More</a> <hr class=\"soften\"> <a href=\"\" class=\"app-link\" style=\" background: url('images/app.jpg') 0 0 no-repeat; background-size: 100%; display: inline-block; height: 46px; width: 138px; vertical-align: middle; \"></a> <img src=\"images/banner-ios-barcode.png\" class=\"swipe-code\" style=\" margin-left: 30px; vertical-align: middle; \">",
       "asset":
       {
         "media": "images/for_ios.jpg"
