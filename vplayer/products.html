@@ -1,8 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/main.css" />
     <meta charset="utf-8">
+    <title>VPlayer</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- jQuery -->
+    <script src="jquery.js"></script>
+    <script src="jquery.accordion.js"></script>
+    <script>
+      jQuery().ready(function(){
+        // first simple accordion with special markup
+        jQuery('#accordion-container').accordion({
+          header: 'h3.accordion-title',
+          active: false,
+          alwaysOpen: false,
+          animated: false,
+          autoheight: false
+        });
+        // bind to change event of select to control first and seconds accordion
+        // similar to tab's plugin triggerTab(), without an extra method
+        var accordions = jQuery('#accordion-container');
+        jQuery('#switch select').change(function() {
+          accordions.accordion("activate", this.selectedIndex-1 );
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -24,7 +47,21 @@
           <a href="" title="about us">About</a>
           </li>
         </ul>
-      </div>
-    </div>
+
+        <ul id="accordion-container">
+          <li>
+          <h3 class="accordion-title">What's VPlayer?</h3>
+          <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          </li>
+          <li>
+          <h3 class="accordion-title">How to purchase VPlayer?</h3>
+          <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          </li>
+          <li>
+          <h3 class="accordion-title">Which devices are supported especially by VPlayer?</h3>
+          <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          </li>
+        </ul>
+
   </body>
 </html>
