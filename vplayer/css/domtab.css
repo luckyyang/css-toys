@@ -7,34 +7,51 @@ ul.domtabs{
   padding: 0 220px;
   border-bottom: 1px solid #ccc;
 }
+.domtab-content {
+  padding: 60px 220px;
+  background-color: #fefefe;
+  background-image: linear-gradient(#f0f0f0, #fff);
+}
+.domtab-content h1 {
+  text-align: center;
+  font-size: 40px;
+}
 ul.domtabs li{
   display: inline-block;
+  padding-bottom: 30px;
+}
+ul.domtabs p{
+  margin-bottom: 0;
 }
 ul.domtabs a:link,
 ul.domtabs a:visited,
 ul.domtabs a:active,
 ul.domtabs a:hover{
-  color:#ccc;
-  width:8em;
-  height:5.5em;
-  padding:.2em 1em;
-  font-weight:bold;
-  text-decoration:none;
+  color: #ccc;
+  width: 8em;
+  /* height:5.5em; */
+  padding: 0em 1em;
+  font-weight: bold;
   text-align: center;
-  background: url('/images/alogo.png') 0 0 no-repeat;
-  background-size: 100%;
   display: inline-block;
 }
-ul.domtabs li.active a:link,
-ul.domtabs li.active a:visited,
-ul.domtabs li.active a:active,
-ul.domtabs li.active a:hover{
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+ul.domtabs li.active {
+  border-width:1px;
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #ddd, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+}
+ul.domtabs li.active a {
+  color: #666;
 }
 
 .domtabs-info {
   font-size: 1.2em;
   margin-right: 60px;
   max-width: 400px;
+}
+
+.platform-logo {
+  margin-top: -40px;
 }
