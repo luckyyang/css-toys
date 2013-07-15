@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/domtab.css" />
+    <script src="js/domtab.js"></script>
+    <script>
+      document.write('<style type="text/css">');
+      document.write('div.domtab div{display:none;}<');
+      document.write('/s'+'tyle>');
+    </script>
+  </head>
+  <body>
+
+    <!-- http://onlinetools.org/tools/domtabdata/ -->
+    <div class="domtab">
+      <ul class="domtabs">
+        <li><a href="#t1">Test 1</a></li>
+        <li><a href="#t2">Test 2</a></li>
+      </ul>
+      <div>
+        <h2><a name="t1" id="t1">Proof 1</a></h2>
+        <p>Test to prove that more than one menu is possible</p>
+        <p><a href="#top">back to menu</a></p>
+      </div>
+      <div>
+        <h2><a name="t2" id="t2">Proof 2</a></h2>
+        <p>Test to prove that more than one menu is possible</p>
+        <p><a href="#top">back to menu</a></p>
+      </div>
+    </div>
+
+
+  </body>
+</html>

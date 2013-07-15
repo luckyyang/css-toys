@@ -5,9 +5,11 @@
     <title>VPlayer</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/domtab.css" />
     <!-- jQuery -->
-    <script src="jquery.js"></script>
-    <script src="jquery.accordion.js"></script>
+    <script src="js/jquery.js"></script>
+    <!-- http://jquery.bassistance.de/accordion/demo/ -->
+    <script src="js/jquery.accordion.js"></script>
     <script>
       jQuery().ready(function(){
         // first simple accordion with special markup
@@ -26,7 +28,13 @@
         });
       });
     </script>
-  </head>
+    <script src="js/domtab.js"></script>
+    <script>
+      document.write('<style type="text/css">');
+      document.write('div.domtab div{display:none;}<');
+      document.write('/s'+'tyle>');
+      </script>
+    </head>
   <body>
     <div class="wrapper">
       <div class="container">
@@ -48,20 +56,47 @@
           </li>
         </ul>
 
+    <!-- http://onlinetools.org/tools/domtabdata/ -->
+    <div class="domtab">
+      <ul class="domtabs">
+        <li class="domtabs-info">
+          <h2>FAQ</h2>
+          <p>Have questions? Look below and see If your question is in the FAQ or send your questions to us.</p>
+        </li>
+        <li><a href="#t1">Android</a></li>
+        <li><a href="#t2">IOS</a></li>
+      </ul>
+      <div>
+        <h1><a name="t1" id="t1">The best video player for Android.</a></h1>
+        <!-- start accordion-container -->
         <ul id="accordion-container">
           <li>
           <h3 class="accordion-title">What's VPlayer?</h3>
-          <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          <div class="accordion-content">
+            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          </div>
           </li>
           <li>
           <h3 class="accordion-title">How to purchase VPlayer?</h3>
-          <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          <div class="accordion-content">
+            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          </div>
           </li>
           <li>
           <h3 class="accordion-title">Which devices are supported especially by VPlayer?</h3>
-          <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          <div class="accordion-content">
+            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+          </div>
           </li>
         </ul>
+        <!-- end accordion-container -->
+      </div>
+      <div>
+        <h2><a name="t2" id="t2">Proof 2</a></h2>
+        <p>Test to prove that more than one menu is possible</p>
+        <p><a href="#top">back to menu</a></p>
+      </div>
+    </div>
 
   </body>
 </html>
