@@ -15,10 +15,13 @@ ul.domtabs{
 .domtab-content h1 {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 120px;
 }
 ul.domtabs li{
   display: inline-block;
   padding-bottom: 30px;
+  margin-bottom: -2px;
+  position: relative;
 }
 ul.domtabs p{
   margin-bottom: 0;
@@ -35,6 +38,7 @@ ul.domtabs a:hover{
   text-align: center;
   display: inline-block;
 }
+/* http://css-tricks.com/examples/GradientBorder/ */
 ul.domtabs li.active {
   border-width:1px;
   -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
@@ -42,6 +46,28 @@ ul.domtabs li.active {
   -o-border-image: -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
   -moz-border-image: -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
 }
+
+/* http://cssarrowplease.com/ */
+ul.domtabs li.active:after , ul.domtabs li.active:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  position: absolute;
+  top: 100%;
+}
+ul.domtabs li.active:after {
+  border-width: 10px;
+  border-top-color: #fff;
+  left: 57px;
+}
+ul.domtabs li.active:before {
+  border-width: 12px;
+  border-top-color: #ccc;
+  left: 55px;
+}
+
+
 ul.domtabs li.active a {
   color: #666;
 }
