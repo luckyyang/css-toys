@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,66 +7,26 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/domtab.css" />
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
     <!-- http://jquery.bassistance.de/accordion/demo/ -->
-    <script src="js/jquery.accordion.js"></script>
-    <script>
-      jQuery().ready(function(){
-        // first simple accordion with special markup
-        jQuery('#accordion-container-android').accordion({
-          header: 'h3.accordion-title',
-          active: false,
-          alwaysOpen: false,
-          animated: false,
-          autoheight: false
-        });
-        // bind to change event of select to control first and seconds accordion
-        // similar to tab's plugin triggerTab(), without an extra method
-        var accordions = jQuery('#accordion-container-android');
-        jQuery('#switch select').change(function() {
-          accordions.accordion("activate", this.selectedIndex-1 );
-        });
-      });
-    </script>
-    <script>
-      jQuery().ready(function(){
-        // first simple accordion with special markup
-        jQuery('#accordion-container-ios').accordion({
-          header: 'h3.accordion-title',
-          active: false,
-          alwaysOpen: false,
-          animated: false,
-          autoheight: false
-        });
-        // bind to change event of select to control first and seconds accordion
-        // similar to tab's plugin triggerTab(), without an extra method
-        var accordions_ios = jQuery('#accordion-container-ios');
-        jQuery('#switch select').change(function() {
-          accordions.accordion("activate", this.selectedIndex-1 );
-        });
-      });
-    </script>
+    <!-- <script src="js/jquery.accordion.js"></script> -->
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"> -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="js/domtab.js"></script>
-    <script>
-      document.write('<style type="text/css">');
-      // document.write('ul.ui-accordion>li:first-child{class="selected"}');
-      // document.write('ul.ui-accordion>li:first-child>h3{class="selected"}');
-      document.write('div.domtab div{display:none;}<');
-      document.write('/s'+'tyle>');
-      </script>
-    </head>
+  </head>
   <body>
     <div class="wrapper">
       <div class="container">
         <ul class="nav-bar">
           <li class="home-logo">
-            <a href="index.html" title="home page"><img src="images/logo.png"></a>
+          <a href="index.html" title="home page"><img src="images/logo.png"></a>
           </li>
           <li class="nav-item">
-            <a href="products.html" title="view our products">Products</a>
+          <a href="products.html" title="view our products">Products</a>
           </li>
           <li class="nav-item pressed">
-            <a href="faq.html" title="frequent ask questions">FAQ</a>
+          <a href="faq.html" title="frequent ask questions">FAQ</a>
           </li>
           <li class="nav-item outdated-link">
           <a href="" title="VPlayerTech">VPlayerTech</a>
@@ -77,73 +36,125 @@
           </li>
         </ul>
 
-    <!-- http://onlinetools.org/tools/domtabdata/ -->
-    <div class="domtab">
-      <ul class="domtabs">
-        <li class="domtabs-info">
-          <h2>FAQ</h2>
-          <p>Have questions? Look below and see If your question is in the FAQ or send your questions to us.</p>
-        </li>
-        <li><a href="#t1">
-          <img src="images/alogo.png" class="platform-logo">
-          <p>Android</p></a></li>
-        <li><a href="#t2">
-          <img src="images/alogo.png" class="platform-logo">
-          <p>IOS</p></a></li>
-      </ul>
-      <div class="domtab-content">
-        <h1><a name="t1" id="t1">The best video player for Android.</a></h1>
-        <!-- start accordion-container -->
-        <ul id="accordion-container-android">
-          <li>
-          <h3 class="accordion-title">What's VPlayer?</h3>
-          <div class="accordion-content">
-            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+        <!-- http://onlinetools.org/tools/domtabdata/ -->
+        <div class="domtab">
+          <ul class="domtabs">
+            <li class="domtabs-info">
+            <h2>Products</h2>
+            <p> Hey, VPlayer Users! Look at right, VPlayer no longer alone, it has two good buddies, version for iOS and a upcoming app. Welcome to try them!</p>
+            </li>
+            <li><a href="#android"> <img src="images/alogo.png" class="platform-logo"> <p>Android</p></a></li>
+            <li><a href="#ios"> <img src="images/alogo.png" class="platform-logo"> <p>IOS</p></a></li>
+          </ul>
+          <!-- android domtab -->
+          <div class="domtab-content">
+            <h1><a name="android" id="android">The best video player for Android.</a></h1>
+            <!-- start accordion-container -->
+            <section id="accordion-container-android">
+              <h3 class="accordion-title">What's VPlayer?</h3>
+              <section class="accordion-content">
+              <ol>
+                <li><p> Improve cache the online video or audio file to external storage, </p></li>
+                <li><p> Enable this feature from Preferences -&gt; Video player - &gt; File cache.  </p></li>
+                <li><p> Use RGBA8888 instead of RGB565 render video.  </p></li>
+                <li><p> Add clear cache media files feature.  </p></li>
+                <li><p> Fix auto play next video bug.  </p></li>
+                <li><p> Fix background playback bug.  </p></li>
+              </ol>
+              </section>
+              <h3 class="accordion-title">How to purchase VPlayer?</h3>
+              <section class="accordion-content">
+              <ol>
+                <li><p>
+                Improve cache the online video or audio file to external storage,
+                Enable this feature from Preferences -&gt; Video player -&gt; File
+                cache.
+                </p></li>
+                <li><p>
+                Use RGBA8888 instead of RGB565 render video.
+                </p></li>
+                <li><p>
+                Add clear cache media files feature.
+                </p></li>
+                <li><p>
+                Fix auto play next video bug.
+                </p></li>
+                <li><p>
+                Fix background playback bug.
+                </p></li>
+              </ol>
+              </section>
+              <h3 class="accordion-title">Which devices are supported
+                especially by VPlayer?</h3>
+              <section class="accordion-content">
+              <ol>
+                <li><p>
+                Improve cache the online video or audio file to external storage,
+                Enable this feature from Preferences -&gt; Video player -&gt; File
+                cache.
+                </p></li>
+                <li><p>
+                Use RGBA8888 instead of RGB565 render video.
+                </p></li>
+                <li><p>
+                Add clear cache media files feature.
+                </p></li>
+                <li><p>
+                Fix auto play next video bug.
+                </p></li>
+                <li><p>
+                Fix background playback bug.
+                </p></li>
+              </ol>
+              </section>
+              <!-- end accordion-container -->
+            </section>
+          </div><!--end domtab-content for android -->
+
+          <!-- ios domtab -->
+          <div class="domtab-content">
+            <h1><a name="ios" id="ios">The best video player for IOS.</a></h1>
+            <!-- start accordion-container -->
+            <section id="accordion-container-ios">
+              <h3 class="accordion-title">What's VPlayer?</h3>
+              <div class="accordion-content">
+                <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
+              </div>
+              <h3 class="accordion-title">How can you help us translate
+                VPlayer info to different languages?</h3>
+              <div class="accordion-content">
+                <p>
+                  Please follow VPlayer on github
+                  https://github.com/yixia/VPlayer-i18n-iOS
+                </p>
+              </div>
+              <h3 class="accordion-title">How to delete video files from
+                VPlayer?</h3>
+              <div class="accordion-content">
+                <p>
+                Now you can delete files from iTunes libs, click on the icon
+                on the top left of the screen, open the drop-down menu, select
+                iTunes Libs, then click the icon on the top right of the
+                screen, a menu will appear on the bottom of the screen with
+                two options, select all and delete, select the checkbox next
+                to the video you want to delete, then hit on the delete option
+                on the bottom menu.
+                </p>
+                <br>
+              </div>
+              <h3 class="accordion-title">How do you import videos to VPlayer?</h3>
+              <div class="accordion-content">
+                <p>
+                  Please follow VPlayer on github
+                  https://github.com/yixia/VPlayer-i18n-iOS
+                </p>
+              </div>
+            </section>
+            <!-- end accordion-container -->
           </div>
-          </li>
-          <li>
-          <h3 class="accordion-title">How to purchase VPlayer?</h3>
-          <div class="accordion-content">
-            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
-          </div>
-          </li>
-          <li>
-          <h3 class="accordion-title">Which devices are supported especially by VPlayer?</h3>
-          <div class="accordion-content">
-            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
-          </div>
-          </li>
-        </ul>
-        <!-- end accordion-container -->
-      </div>
-      <div class="domtab-content">
-        <h1><a name="t2" id="t2">The best video player for IOS.</a></h1>
-        <!-- start accordion-container -->
-        <ul id="accordion-container-ios">
-          <li>
-          <h3 class="accordion-title">What's VPlayer?</h3>
-          <div class="accordion-content">
-            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
-          </div>
-          </li>
-          <li>
-          <h3 class="accordion-title">How to purchase VPlayer?</h3>
-          <div class="accordion-content">
-            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
-          </div>
-          </li>
-          <li>
-          <h3 class="accordion-title">Which devices are supported especially by VPlayer?</h3>
-          <div class="accordion-content">
-            <p> Well, one ball, some guys running around, some guys hitting others with a stick.<br/> Sounds like fun, doesn't it?  </p>
-          </div>
-          </li>
-        </ul>
-        <!-- end accordion-container -->
-      </div>
-    </div>
-    <div class=footer>
-      <ul class="foot-bar">
+        </div>  <!-- domtab -->
+        <div class=footer>
+          <ul class="foot-bar">
             <li class="foot-logo foot-item">
             <a href="index.html" title="home page"><img src="images/ft_logo.png"></a>
             <h3>VPlayer</h3>
@@ -159,23 +170,32 @@
             <a href="faq.html#ios" title="Vplayer for IOS">Vplayer for IOS</a>
             </li>
             <li class="foot-item outdated-link">
-              <strong>
-                <a href="index.html" title="about us">About</a>
-              </strong>
-              <a href="about.html" title="Jobs">Jobs</a>
-              <a href="about.html" title="Contact us">Contact us</a>
-              <a href="about.html" title="site status">site status</a>
+            <strong>
+              <a href="index.html" title="about us">About</a>
+            </strong>
+            <a href="about.html" title="Jobs">Jobs</a>
+            <a href="about.html" title="Contact us">Contact us</a>
+            <a href="about.html" title="site status">site status</a>
             </li>
             <li class="foot-item outdated-link">
-              <strong> <a href="index.html" title="VPlayer Tech">VPlayer Tech</a> </strong>
-              <a href="about.html" title="VPlayer for iOS">VPlayer for iOS</a>
-              <a href="about.html" title="VPlayer for Android">VPlayer for Android</a>
+            <strong> <a href="index.html" title="VPlayer Tech">VPlayer Tech</a> </strong>
+            <a href="about.html" title="VPlayer for iOS">VPlayer for iOS</a>
+            <a href="about.html" title="VPlayer for Android">VPlayer for Android</a>
             </li>
           </ul>
         </div>
         <p class="legal-info"> © 2012 Xuan Yi Xia Inc. All rights reserved </p>
-      </div>
-    </div>
+      </div>  <!-- container -->
+    </div>  <!-- wrapper -->
 
+    <script>
+      $( "#accordion-container-android" ).accordion();
+      $('#accordion-container-ios').accordion();
+    </script>
+    <script>
+      document.write('<style type="text/css">');
+      document.write('div.domtab div{display:none;}<');
+      document.write('/s'+'tyle>');
+    </script>
   </body>
 </html>

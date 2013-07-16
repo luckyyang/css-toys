@@ -10,6 +10,10 @@ body {
   /* Arial,Liberation Sans,DejaVu Sans,sans-serif; */
   font-size: 90%;
 }
+h3:focus {
+  outline: none;
+  background: #AED8D6;
+}
 .container {
   margin: 0 auto;
   position: relative;
@@ -190,4 +194,9 @@ ul {
   margin-top: 20px;
   margin-left: 200px;
   display: inline-block;
+}
+
+/* accordion jquery */
+.ui-state-active {
+  background: #AED8D6;
 }
