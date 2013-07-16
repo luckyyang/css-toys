@@ -20,7 +20,7 @@ ul.domtabs{
 ul.domtabs li{
   display: inline-block;
   padding-bottom: 30px;
-  margin-bottom: -2px;
+  margin-bottom: -3px;
   position: relative;
   border: 1px solid transparent;
 }
