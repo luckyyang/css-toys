@@ -15,7 +15,7 @@ h3:focus {
   background: #AED8D6;
 }
 .container {
-  margin: 0 auto;
+  margin: 60px auto;
   position: relative;
 }
 a {
@@ -117,7 +117,7 @@ ul {
 .timeline-container {
   width: 100%;
   margin-bottom: 60px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 .soften {
   height: 1px;
