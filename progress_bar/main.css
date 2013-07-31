@@ -1,0 +1,56 @@
+.progress {
+  margin: 60px auto;
+  width: 400px;
+  height: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.bar {
+  height: 100%;
+  -moz-border-top-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.progress-text {
+  font-weight: bold;
+  margin-left: 176px;
+}
+
+.bg-green {
+  background: #008c7e;
+}
+.bg-light-gray {
+  background: #eaeaea;
+}
+.bg-dark-gray {
+  background: #1a1a1a;
+}
+.have-padding {
+  padding: 5px;
+}
+.have-border {
+  border: 1px solid #aaa;
+}
+.big-radius {
+  border-radius: 25px;
+}
+
+.different-radius {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.text-white {
+  color: white;
+  text-shadow: 0 0px 1px white;
+}
+.text-dark-gray {
+  color: #333;
+  text-shadow: 0 0px 1px #999;
+}
