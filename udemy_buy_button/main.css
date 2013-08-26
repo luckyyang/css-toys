@@ -1,0 +1,49 @@
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #555555;
+}
+
+a {
+outline: none !important;
+font-weight: normal;
+color: #5d951f;
+text-decoration: none;
+}
+
+.buy-button-link {
+background: #935610;
+background: -webkit-linear-gradient(#edc250, #935610);
+background: -o-linear-gradient(#edc250, #935610);
+background: -ms-linear-gradient(#edc250, #935610);
+background: linear-gradient(#edc250, #935610);
+border-radius: 25px;
+box-shadow: 0 1px 0 #ffffff inset, 0 2px 2px rgba(255, 255, 255, 0.15);
+display: inline-block;
+font-size: 22px;
+font-weight: bold;
+letter-spacing: 0.5px;
+padding: 3px 5px 4px 18px;
+position: relative;
+border-color: #293829;
+border-width: 2px 1px;
+border-style: solid;
+background-clip: padding-box;
+color: #1f2b20;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.buy-button-link span {
+background: none repeat scroll 0 0 #384835;
+border-radius: 20px;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.6) inset;
+color: #fff7cd;
+display: inline-block;
+margin: 1px 0 0 4px;
+padding: 0 15px 0;
+text-shadow: 0 2px 3px #000000;
+line-height: 37px;
+position: relative;
+z-index: 1;
+}
