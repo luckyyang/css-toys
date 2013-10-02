@@ -34,12 +34,14 @@
 
     <div class="ui pointing below label">HTML</div>
     <script>
-      $("#cancel").on('click', function() {
-        console.log( $("#cancel"));
-        $("#dimmer").removeClass("visible")
-                    .removeClass("active")
-                    .addClass("hidden");
-      });
+      (function() {
+        $("#cancel").on('click', function() {
+          console.log( $("#cancel"));
+          $("#dimmer").removeClass("visible")
+                      .removeClass("active")
+                      .addClass("hidden");
+        });
+      })();
     </script>
   </body>
 </html>
