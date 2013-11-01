@@ -6,16 +6,10 @@
     <script src="../js/raphael-min.js" ></script>
     <script src="../js/g.raphael-min.js" ></script>
     <script src="../js/g.line-min.js" ></script>
-    <style>
-      #holder {
-        width: 550px;
-        height: 500px;
-      }
-    </style>
   </head>
   <body>
 
-    <div id="holder"></div> 
+    <div id="holder" style="width: 600px; height: 500px;"></div>
 
     <script>
       var r = Raphael("holder");
@@ -38,9 +32,9 @@
            smooth: true,      // curve the lines to smooth turns on the chart
            symbol: "circle",
            colors: [
-             "#995555",       // the first line is red  
-             "#555599",        // the second line is blue
-             "#559955"        // the third line is green
+             "red",       // the first line is red
+             "green",        // the second line is green
+             "blue"        // the third line is blue
            ]
          });
     </script>
