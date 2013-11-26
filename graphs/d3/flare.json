@@ -1,3 +1,380 @@
-
-<!-- saved from url=(0096)https://gist.github.com/mbostock/7607535/raw/a05a94858375bd0ae023f6950a2b13fac5127637/flare.json -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>#haloword-pron { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -94px -34px; }#haloword-pron:hover { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -111px -34px; }#haloword-open { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -94px -17px; }#haloword-open:hover { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -111px -17px; }#haloword-close { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -94px 0; }#haloword-close:hover { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -111px 0; }#haloword-add { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -94px -51px; }#haloword-add:hover { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -111px -51px; }#haloword-remove { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -94px -68px; }#haloword-remove:hover { background: url(chrome-extension://bhkcehpnnlgncpnefpanachijmhikocj/img/icon.svg) -111px -68px; }</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style></head><body cz-shortcut-listen="true">{ <ul class="object"><li><span class="object">name</span>: <span class="string">flare</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">analytics</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">cluster</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">AgglomerativeCluster</span></li><li><span class="object">size</span>: <span class="number">3938</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">CommunityStructure</span></li><li><span class="object">size</span>: <span class="number">3812</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">HierarchicalCluster</span></li><li><span class="object">size</span>: <span class="number">6714</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">MergeEdge</span></li><li><span class="object">size</span>: <span class="number">743</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">graph</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">BetweennessCentrality</span></li><li><span class="object">size</span>: <span class="number">3534</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">LinkDistance</span></li><li><span class="object">size</span>: <span class="number">5731</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">MaxFlowMinCut</span></li><li><span class="object">size</span>: <span class="number">7840</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ShortestPaths</span></li><li><span class="object">size</span>: <span class="number">5914</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SpanningTree</span></li><li><span class="object">size</span>: <span class="number">3416</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">optimization</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">AspectRatioBanker</span></li><li><span class="object">size</span>: <span class="number">7074</span></li></ul> }</li></ul> ]</li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">animate</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Easing</span></li><li><span class="object">size</span>: <span class="number">17010</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">FunctionSequence</span></li><li><span class="object">size</span>: <span class="number">5842</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">interpolate</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ArrayInterpolator</span></li><li><span class="object">size</span>: <span class="number">1983</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ColorInterpolator</span></li><li><span class="object">size</span>: <span class="number">2047</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DateInterpolator</span></li><li><span class="object">size</span>: <span class="number">1375</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Interpolator</span></li><li><span class="object">size</span>: <span class="number">8746</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">MatrixInterpolator</span></li><li><span class="object">size</span>: <span class="number">2202</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">NumberInterpolator</span></li><li><span class="object">size</span>: <span class="number">1382</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ObjectInterpolator</span></li><li><span class="object">size</span>: <span class="number">1629</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">PointInterpolator</span></li><li><span class="object">size</span>: <span class="number">1675</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">RectangleInterpolator</span></li><li><span class="object">size</span>: <span class="number">2042</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ISchedulable</span></li><li><span class="object">size</span>: <span class="number">1041</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Parallel</span></li><li><span class="object">size</span>: <span class="number">5176</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Pause</span></li><li><span class="object">size</span>: <span class="number">449</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Scheduler</span></li><li><span class="object">size</span>: <span class="number">5593</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Sequence</span></li><li><span class="object">size</span>: <span class="number">5534</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Transition</span></li><li><span class="object">size</span>: <span class="number">9201</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Transitioner</span></li><li><span class="object">size</span>: <span class="number">19975</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">TransitionEvent</span></li><li><span class="object">size</span>: <span class="number">1116</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Tween</span></li><li><span class="object">size</span>: <span class="number">6006</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">data</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">converters</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Converters</span></li><li><span class="object">size</span>: <span class="number">721</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DelimitedTextConverter</span></li><li><span class="object">size</span>: <span class="number">4294</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">GraphMLConverter</span></li><li><span class="object">size</span>: <span class="number">9800</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IDataConverter</span></li><li><span class="object">size</span>: <span class="number">1314</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">JSONConverter</span></li><li><span class="object">size</span>: <span class="number">2220</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataField</span></li><li><span class="object">size</span>: <span class="number">1759</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataSchema</span></li><li><span class="object">size</span>: <span class="number">2165</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataSet</span></li><li><span class="object">size</span>: <span class="number">586</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataSource</span></li><li><span class="object">size</span>: <span class="number">3331</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataTable</span></li><li><span class="object">size</span>: <span class="number">772</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataUtil</span></li><li><span class="object">size</span>: <span class="number">3322</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">display</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DirtySprite</span></li><li><span class="object">size</span>: <span class="number">8833</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">LineSprite</span></li><li><span class="object">size</span>: <span class="number">1732</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">RectSprite</span></li><li><span class="object">size</span>: <span class="number">3623</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">TextSprite</span></li><li><span class="object">size</span>: <span class="number">10066</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">flex</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">FlareVis</span></li><li><span class="object">size</span>: <span class="number">4116</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">physics</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DragForce</span></li><li><span class="object">size</span>: <span class="number">1082</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">GravityForce</span></li><li><span class="object">size</span>: <span class="number">1336</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IForce</span></li><li><span class="object">size</span>: <span class="number">319</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">NBodyForce</span></li><li><span class="object">size</span>: <span class="number">10498</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Particle</span></li><li><span class="object">size</span>: <span class="number">2822</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Simulation</span></li><li><span class="object">size</span>: <span class="number">9983</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Spring</span></li><li><span class="object">size</span>: <span class="number">2213</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SpringForce</span></li><li><span class="object">size</span>: <span class="number">1681</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">query</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">AggregateExpression</span></li><li><span class="object">size</span>: <span class="number">1616</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">And</span></li><li><span class="object">size</span>: <span class="number">1027</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Arithmetic</span></li><li><span class="object">size</span>: <span class="number">3891</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Average</span></li><li><span class="object">size</span>: <span class="number">891</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">BinaryExpression</span></li><li><span class="object">size</span>: <span class="number">2893</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Comparison</span></li><li><span class="object">size</span>: <span class="number">5103</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">CompositeExpression</span></li><li><span class="object">size</span>: <span class="number">3677</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Count</span></li><li><span class="object">size</span>: <span class="number">781</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DateUtil</span></li><li><span class="object">size</span>: <span class="number">4141</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Distinct</span></li><li><span class="object">size</span>: <span class="number">933</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Expression</span></li><li><span class="object">size</span>: <span class="number">5130</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ExpressionIterator</span></li><li><span class="object">size</span>: <span class="number">3617</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Fn</span></li><li><span class="object">size</span>: <span class="number">3240</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">If</span></li><li><span class="object">size</span>: <span class="number">2732</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IsA</span></li><li><span class="object">size</span>: <span class="number">2039</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Literal</span></li><li><span class="object">size</span>: <span class="number">1214</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Match</span></li><li><span class="object">size</span>: <span class="number">3748</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Maximum</span></li><li><span class="object">size</span>: <span class="number">843</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">methods</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">add</span></li><li><span class="object">size</span>: <span class="number">593</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">and</span></li><li><span class="object">size</span>: <span class="number">330</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">average</span></li><li><span class="object">size</span>: <span class="number">287</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">count</span></li><li><span class="object">size</span>: <span class="number">277</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">distinct</span></li><li><span class="object">size</span>: <span class="number">292</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">div</span></li><li><span class="object">size</span>: <span class="number">595</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">eq</span></li><li><span class="object">size</span>: <span class="number">594</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">fn</span></li><li><span class="object">size</span>: <span class="number">460</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">gt</span></li><li><span class="object">size</span>: <span class="number">603</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">gte</span></li><li><span class="object">size</span>: <span class="number">625</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">iff</span></li><li><span class="object">size</span>: <span class="number">748</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">isa</span></li><li><span class="object">size</span>: <span class="number">461</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">lt</span></li><li><span class="object">size</span>: <span class="number">597</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">lte</span></li><li><span class="object">size</span>: <span class="number">619</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">max</span></li><li><span class="object">size</span>: <span class="number">283</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">min</span></li><li><span class="object">size</span>: <span class="number">283</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">mod</span></li><li><span class="object">size</span>: <span class="number">591</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">mul</span></li><li><span class="object">size</span>: <span class="number">603</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">neq</span></li><li><span class="object">size</span>: <span class="number">599</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">not</span></li><li><span class="object">size</span>: <span class="number">386</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">or</span></li><li><span class="object">size</span>: <span class="number">323</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">orderby</span></li><li><span class="object">size</span>: <span class="number">307</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">range</span></li><li><span class="object">size</span>: <span class="number">772</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">select</span></li><li><span class="object">size</span>: <span class="number">296</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">stddev</span></li><li><span class="object">size</span>: <span class="number">363</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">sub</span></li><li><span class="object">size</span>: <span class="number">600</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">sum</span></li><li><span class="object">size</span>: <span class="number">280</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">update</span></li><li><span class="object">size</span>: <span class="number">307</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">variance</span></li><li><span class="object">size</span>: <span class="number">335</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">where</span></li><li><span class="object">size</span>: <span class="number">299</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">xor</span></li><li><span class="object">size</span>: <span class="number">354</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">_</span></li><li><span class="object">size</span>: <span class="number">264</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Minimum</span></li><li><span class="object">size</span>: <span class="number">843</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Not</span></li><li><span class="object">size</span>: <span class="number">1554</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Or</span></li><li><span class="object">size</span>: <span class="number">970</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Query</span></li><li><span class="object">size</span>: <span class="number">13896</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Range</span></li><li><span class="object">size</span>: <span class="number">1594</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">StringUtil</span></li><li><span class="object">size</span>: <span class="number">4130</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Sum</span></li><li><span class="object">size</span>: <span class="number">791</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Variable</span></li><li><span class="object">size</span>: <span class="number">1124</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Variance</span></li><li><span class="object">size</span>: <span class="number">1876</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Xor</span></li><li><span class="object">size</span>: <span class="number">1101</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">scale</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IScaleMap</span></li><li><span class="object">size</span>: <span class="number">2105</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">LinearScale</span></li><li><span class="object">size</span>: <span class="number">1316</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">LogScale</span></li><li><span class="object">size</span>: <span class="number">3151</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">OrdinalScale</span></li><li><span class="object">size</span>: <span class="number">3770</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">QuantileScale</span></li><li><span class="object">size</span>: <span class="number">2435</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">QuantitativeScale</span></li><li><span class="object">size</span>: <span class="number">4839</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">RootScale</span></li><li><span class="object">size</span>: <span class="number">1756</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Scale</span></li><li><span class="object">size</span>: <span class="number">4268</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ScaleType</span></li><li><span class="object">size</span>: <span class="number">1821</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">TimeScale</span></li><li><span class="object">size</span>: <span class="number">5833</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">util</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Arrays</span></li><li><span class="object">size</span>: <span class="number">8258</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Colors</span></li><li><span class="object">size</span>: <span class="number">10001</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Dates</span></li><li><span class="object">size</span>: <span class="number">8217</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Displays</span></li><li><span class="object">size</span>: <span class="number">12555</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Filter</span></li><li><span class="object">size</span>: <span class="number">2324</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Geometry</span></li><li><span class="object">size</span>: <span class="number">10993</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">heap</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">FibonacciHeap</span></li><li><span class="object">size</span>: <span class="number">9354</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">HeapNode</span></li><li><span class="object">size</span>: <span class="number">1233</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IEvaluable</span></li><li><span class="object">size</span>: <span class="number">335</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IPredicate</span></li><li><span class="object">size</span>: <span class="number">383</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IValueProxy</span></li><li><span class="object">size</span>: <span class="number">874</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">math</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DenseMatrix</span></li><li><span class="object">size</span>: <span class="number">3165</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IMatrix</span></li><li><span class="object">size</span>: <span class="number">2815</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SparseMatrix</span></li><li><span class="object">size</span>: <span class="number">3366</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Maths</span></li><li><span class="object">size</span>: <span class="number">17705</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Orientation</span></li><li><span class="object">size</span>: <span class="number">1486</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">palette</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ColorPalette</span></li><li><span class="object">size</span>: <span class="number">6367</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Palette</span></li><li><span class="object">size</span>: <span class="number">1229</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ShapePalette</span></li><li><span class="object">size</span>: <span class="number">2059</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SizePalette</span></li><li><span class="object">size</span>: <span class="number">2291</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Property</span></li><li><span class="object">size</span>: <span class="number">5559</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Shapes</span></li><li><span class="object">size</span>: <span class="number">19118</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Sort</span></li><li><span class="object">size</span>: <span class="number">6887</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Stats</span></li><li><span class="object">size</span>: <span class="number">6557</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Strings</span></li><li><span class="object">size</span>: <span class="number">22026</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">vis</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">axis</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Axes</span></li><li><span class="object">size</span>: <span class="number">1302</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Axis</span></li><li><span class="object">size</span>: <span class="number">24593</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">AxisGridLine</span></li><li><span class="object">size</span>: <span class="number">652</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">AxisLabel</span></li><li><span class="object">size</span>: <span class="number">636</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">CartesianAxes</span></li><li><span class="object">size</span>: <span class="number">6703</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">controls</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">AnchorControl</span></li><li><span class="object">size</span>: <span class="number">2138</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ClickControl</span></li><li><span class="object">size</span>: <span class="number">3824</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Control</span></li><li><span class="object">size</span>: <span class="number">1353</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ControlList</span></li><li><span class="object">size</span>: <span class="number">4665</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DragControl</span></li><li><span class="object">size</span>: <span class="number">2649</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ExpandControl</span></li><li><span class="object">size</span>: <span class="number">2832</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">HoverControl</span></li><li><span class="object">size</span>: <span class="number">4896</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IControl</span></li><li><span class="object">size</span>: <span class="number">763</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">PanZoomControl</span></li><li><span class="object">size</span>: <span class="number">5222</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SelectionControl</span></li><li><span class="object">size</span>: <span class="number">7862</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">TooltipControl</span></li><li><span class="object">size</span>: <span class="number">8435</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">data</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Data</span></li><li><span class="object">size</span>: <span class="number">20544</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataList</span></li><li><span class="object">size</span>: <span class="number">19788</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataSprite</span></li><li><span class="object">size</span>: <span class="number">10349</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">EdgeSprite</span></li><li><span class="object">size</span>: <span class="number">3301</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">NodeSprite</span></li><li><span class="object">size</span>: <span class="number">19382</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">render</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ArrowType</span></li><li><span class="object">size</span>: <span class="number">698</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">EdgeRenderer</span></li><li><span class="object">size</span>: <span class="number">5569</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IRenderer</span></li><li><span class="object">size</span>: <span class="number">353</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ShapeRenderer</span></li><li><span class="object">size</span>: <span class="number">2247</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ScaleBinding</span></li><li><span class="object">size</span>: <span class="number">11275</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Tree</span></li><li><span class="object">size</span>: <span class="number">7147</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">TreeBuilder</span></li><li><span class="object">size</span>: <span class="number">9930</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">events</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DataEvent</span></li><li><span class="object">size</span>: <span class="number">2313</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SelectionEvent</span></li><li><span class="object">size</span>: <span class="number">1880</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">TooltipEvent</span></li><li><span class="object">size</span>: <span class="number">1701</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">VisualizationEvent</span></li><li><span class="object">size</span>: <span class="number">1117</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">legend</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Legend</span></li><li><span class="object">size</span>: <span class="number">20859</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">LegendItem</span></li><li><span class="object">size</span>: <span class="number">4614</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">LegendRange</span></li><li><span class="object">size</span>: <span class="number">10530</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">operator</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">distortion</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">BifocalDistortion</span></li><li><span class="object">size</span>: <span class="number">4461</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Distortion</span></li><li><span class="object">size</span>: <span class="number">6314</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">FisheyeDistortion</span></li><li><span class="object">size</span>: <span class="number">3444</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">encoder</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ColorEncoder</span></li><li><span class="object">size</span>: <span class="number">3179</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Encoder</span></li><li><span class="object">size</span>: <span class="number">4060</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">PropertyEncoder</span></li><li><span class="object">size</span>: <span class="number">4138</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ShapeEncoder</span></li><li><span class="object">size</span>: <span class="number">1690</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SizeEncoder</span></li><li><span class="object">size</span>: <span class="number">1830</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">filter</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">FisheyeTreeFilter</span></li><li><span class="object">size</span>: <span class="number">5219</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">GraphDistanceFilter</span></li><li><span class="object">size</span>: <span class="number">3165</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">VisibilityFilter</span></li><li><span class="object">size</span>: <span class="number">3509</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IOperator</span></li><li><span class="object">size</span>: <span class="number">1286</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">label</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Labeler</span></li><li><span class="object">size</span>: <span class="number">9956</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">RadialLabeler</span></li><li><span class="object">size</span>: <span class="number">3899</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">StackedAreaLabeler</span></li><li><span class="object">size</span>: <span class="number">3202</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">layout</span></li><li><span class="object">children</span>: [ <ul class="array"><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">AxisLayout</span></li><li><span class="object">size</span>: <span class="number">6725</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">BundledEdgeRouter</span></li><li><span class="object">size</span>: <span class="number">3727</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">CircleLayout</span></li><li><span class="object">size</span>: <span class="number">9317</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">CirclePackingLayout</span></li><li><span class="object">size</span>: <span class="number">12003</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">DendrogramLayout</span></li><li><span class="object">size</span>: <span class="number">4853</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">ForceDirectedLayout</span></li><li><span class="object">size</span>: <span class="number">8411</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IcicleTreeLayout</span></li><li><span class="object">size</span>: <span class="number">4864</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">IndentedTreeLayout</span></li><li><span class="object">size</span>: <span class="number">3174</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Layout</span></li><li><span class="object">size</span>: <span class="number">7881</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">NodeLinkTreeLayout</span></li><li><span class="object">size</span>: <span class="number">12870</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">PieLayout</span></li><li><span class="object">size</span>: <span class="number">2728</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">RadialTreeLayout</span></li><li><span class="object">size</span>: <span class="number">12348</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">RandomLayout</span></li><li><span class="object">size</span>: <span class="number">870</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">StackedAreaLayout</span></li><li><span class="object">size</span>: <span class="number">9121</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">TreeMapLayout</span></li><li><span class="object">size</span>: <span class="number">9191</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Operator</span></li><li><span class="object">size</span>: <span class="number">2490</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">OperatorList</span></li><li><span class="object">size</span>: <span class="number">5248</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">OperatorSequence</span></li><li><span class="object">size</span>: <span class="number">4190</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">OperatorSwitch</span></li><li><span class="object">size</span>: <span class="number">2581</span></li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">SortOperator</span></li><li><span class="object">size</span>: <span class="number">2023</span></li></ul> }</li></ul> ]</li></ul> }</li><li>{ <ul class="object"><li><span class="object">name</span>: <span class="string">Visualization</span></li><li><span class="object">size</span>: <span class="number">16540</span></li></ul> }</li></ul> ]</li></ul> }</li></ul> ]</li></ul> }</body></html>
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster", "size": 3938},
+      {"name": "CommunityStructure", "size": 3812},
+      {"name": "HierarchicalCluster", "size": 6714},
+      {"name": "MergeEdge", "size": 743}
+     ]
+    },
+    {
+     "name": "graph",
+     "children": [
+      {"name": "BetweennessCentrality", "size": 3534},
+      {"name": "LinkDistance", "size": 5731},
+      {"name": "MaxFlowMinCut", "size": 7840},
+      {"name": "ShortestPaths", "size": 5914},
+      {"name": "SpanningTree", "size": 3416}
+     ]
+    },
+    {
+     "name": "optimization",
+     "children": [
+      {"name": "AspectRatioBanker", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "animate",
+   "children": [
+    {"name": "Easing", "size": 17010},
+    {"name": "FunctionSequence", "size": 5842},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "ArrayInterpolator", "size": 1983},
+      {"name": "ColorInterpolator", "size": 2047},
+      {"name": "DateInterpolator", "size": 1375},
+      {"name": "Interpolator", "size": 8746},
+      {"name": "MatrixInterpolator", "size": 2202},
+      {"name": "NumberInterpolator", "size": 1382},
+      {"name": "ObjectInterpolator", "size": 1629},
+      {"name": "PointInterpolator", "size": 1675},
+      {"name": "RectangleInterpolator", "size": 2042}
+     ]
+    },
+    {"name": "ISchedulable", "size": 1041},
+    {"name": "Parallel", "size": 5176},
+    {"name": "Pause", "size": 449},
+    {"name": "Scheduler", "size": 5593},
+    {"name": "Sequence", "size": 5534},
+    {"name": "Transition", "size": 9201},
+    {"name": "Transitioner", "size": 19975},
+    {"name": "TransitionEvent", "size": 1116},
+    {"name": "Tween", "size": 6006}
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {
+     "name": "converters",
+     "children": [
+      {"name": "Converters", "size": 721},
+      {"name": "DelimitedTextConverter", "size": 4294},
+      {"name": "GraphMLConverter", "size": 9800},
+      {"name": "IDataConverter", "size": 1314},
+      {"name": "JSONConverter", "size": 2220}
+     ]
+    },
+    {"name": "DataField", "size": 1759},
+    {"name": "DataSchema", "size": 2165},
+    {"name": "DataSet", "size": 586},
+    {"name": "DataSource", "size": 3331},
+    {"name": "DataTable", "size": 772},
+    {"name": "DataUtil", "size": 3322}
+   ]
+  },
+  {
+   "name": "display",
+   "children": [
+    {"name": "DirtySprite", "size": 8833},
+    {"name": "LineSprite", "size": 1732},
+    {"name": "RectSprite", "size": 3623},
+    {"name": "TextSprite", "size": 10066}
+   ]
+  },
+  {
+   "name": "flex",
+   "children": [
+    {"name": "FlareVis", "size": 4116}
+   ]
+  },
+  {
+   "name": "physics",
+   "children": [
+    {"name": "DragForce", "size": 1082},
+    {"name": "GravityForce", "size": 1336},
+    {"name": "IForce", "size": 319},
+    {"name": "NBodyForce", "size": 10498},
+    {"name": "Particle", "size": 2822},
+    {"name": "Simulation", "size": 9983},
+    {"name": "Spring", "size": 2213},
+    {"name": "SpringForce", "size": 1681}
+   ]
+  },
+  {
+   "name": "query",
+   "children": [
+    {"name": "AggregateExpression", "size": 1616},
+    {"name": "And", "size": 1027},
+    {"name": "Arithmetic", "size": 3891},
+    {"name": "Average", "size": 891},
+    {"name": "BinaryExpression", "size": 2893},
+    {"name": "Comparison", "size": 5103},
+    {"name": "CompositeExpression", "size": 3677},
+    {"name": "Count", "size": 781},
+    {"name": "DateUtil", "size": 4141},
+    {"name": "Distinct", "size": 933},
+    {"name": "Expression", "size": 5130},
+    {"name": "ExpressionIterator", "size": 3617},
+    {"name": "Fn", "size": 3240},
+    {"name": "If", "size": 2732},
+    {"name": "IsA", "size": 2039},
+    {"name": "Literal", "size": 1214},
+    {"name": "Match", "size": 3748},
+    {"name": "Maximum", "size": 843},
+    {
+     "name": "methods",
+     "children": [
+      {"name": "add", "size": 593},
+      {"name": "and", "size": 330},
+      {"name": "average", "size": 287},
+      {"name": "count", "size": 277},
+      {"name": "distinct", "size": 292},
+      {"name": "div", "size": 595},
+      {"name": "eq", "size": 594},
+      {"name": "fn", "size": 460},
+      {"name": "gt", "size": 603},
+      {"name": "gte", "size": 625},
+      {"name": "iff", "size": 748},
+      {"name": "isa", "size": 461},
+      {"name": "lt", "size": 597},
+      {"name": "lte", "size": 619},
+      {"name": "max", "size": 283},
+      {"name": "min", "size": 283},
+      {"name": "mod", "size": 591},
+      {"name": "mul", "size": 603},
+      {"name": "neq", "size": 599},
+      {"name": "not", "size": 386},
+      {"name": "or", "size": 323},
+      {"name": "orderby", "size": 307},
+      {"name": "range", "size": 772},
+      {"name": "select", "size": 296},
+      {"name": "stddev", "size": 363},
+      {"name": "sub", "size": 600},
+      {"name": "sum", "size": 280},
+      {"name": "update", "size": 307},
+      {"name": "variance", "size": 335},
+      {"name": "where", "size": 299},
+      {"name": "xor", "size": 354},
+      {"name": "_", "size": 264}
+     ]
+    },
+    {"name": "Minimum", "size": 843},
+    {"name": "Not", "size": 1554},
+    {"name": "Or", "size": 970},
+    {"name": "Query", "size": 13896},
+    {"name": "Range", "size": 1594},
+    {"name": "StringUtil", "size": 4130},
+    {"name": "Sum", "size": 791},
+    {"name": "Variable", "size": 1124},
+    {"name": "Variance", "size": 1876},
+    {"name": "Xor", "size": 1101}
+   ]
+  },
+  {
+   "name": "scale",
+   "children": [
+    {"name": "IScaleMap", "size": 2105},
+    {"name": "LinearScale", "size": 1316},
+    {"name": "LogScale", "size": 3151},
+    {"name": "OrdinalScale", "size": 3770},
+    {"name": "QuantileScale", "size": 2435},
+    {"name": "QuantitativeScale", "size": 4839},
+    {"name": "RootScale", "size": 1756},
+    {"name": "Scale", "size": 4268},
+    {"name": "ScaleType", "size": 1821},
+    {"name": "TimeScale", "size": 5833}
+   ]
+  },
+  {
+   "name": "util",
+   "children": [
+    {"name": "Arrays", "size": 8258},
+    {"name": "Colors", "size": 10001},
+    {"name": "Dates", "size": 8217},
+    {"name": "Displays", "size": 12555},
+    {"name": "Filter", "size": 2324},
+    {"name": "Geometry", "size": 10993},
+    {
+     "name": "heap",
+     "children": [
+      {"name": "FibonacciHeap", "size": 9354},
+      {"name": "HeapNode", "size": 1233}
+     ]
+    },
+    {"name": "IEvaluable", "size": 335},
+    {"name": "IPredicate", "size": 383},
+    {"name": "IValueProxy", "size": 874},
+    {
+     "name": "math",
+     "children": [
+      {"name": "DenseMatrix", "size": 3165},
+      {"name": "IMatrix", "size": 2815},
+      {"name": "SparseMatrix", "size": 3366}
+     ]
+    },
+    {"name": "Maths", "size": 17705},
+    {"name": "Orientation", "size": 1486},
+    {
+     "name": "palette",
+     "children": [
+      {"name": "ColorPalette", "size": 6367},
+      {"name": "Palette", "size": 1229},
+      {"name": "ShapePalette", "size": 2059},
+      {"name": "SizePalette", "size": 2291}
+     ]
+    },
+    {"name": "Property", "size": 5559},
+    {"name": "Shapes", "size": 19118},
+    {"name": "Sort", "size": 6887},
+    {"name": "Stats", "size": 6557},
+    {"name": "Strings", "size": 22026}
+   ]
+  },
+  {
+   "name": "vis",
+   "children": [
+    {
+     "name": "axis",
+     "children": [
+      {"name": "Axes", "size": 1302},
+      {"name": "Axis", "size": 24593},
+      {"name": "AxisGridLine", "size": 652},
+      {"name": "AxisLabel", "size": 636},
+      {"name": "CartesianAxes", "size": 6703}
+     ]
+    },
+    {
+     "name": "controls",
+     "children": [
+      {"name": "AnchorControl", "size": 2138},
+      {"name": "ClickControl", "size": 3824},
+      {"name": "Control", "size": 1353},
+      {"name": "ControlList", "size": 4665},
+      {"name": "DragControl", "size": 2649},
+      {"name": "ExpandControl", "size": 2832},
+      {"name": "HoverControl", "size": 4896},
+      {"name": "IControl", "size": 763},
+      {"name": "PanZoomControl", "size": 5222},
+      {"name": "SelectionControl", "size": 7862},
+      {"name": "TooltipControl", "size": 8435}
+     ]
+    },
+    {
+     "name": "data",
+     "children": [
+      {"name": "Data", "size": 20544},
+      {"name": "DataList", "size": 19788},
+      {"name": "DataSprite", "size": 10349},
+      {"name": "EdgeSprite", "size": 3301},
+      {"name": "NodeSprite", "size": 19382},
+      {
+       "name": "render",
+       "children": [
+        {"name": "ArrowType", "size": 698},
+        {"name": "EdgeRenderer", "size": 5569},
+        {"name": "IRenderer", "size": 353},
+        {"name": "ShapeRenderer", "size": 2247}
+       ]
+      },
+      {"name": "ScaleBinding", "size": 11275},
+      {"name": "Tree", "size": 7147},
+      {"name": "TreeBuilder", "size": 9930}
+     ]
+    },
+    {
+     "name": "events",
+     "children": [
+      {"name": "DataEvent", "size": 2313},
+      {"name": "SelectionEvent", "size": 1880},
+      {"name": "TooltipEvent", "size": 1701},
+      {"name": "VisualizationEvent", "size": 1117}
+     ]
+    },
+    {
+     "name": "legend",
+     "children": [
+      {"name": "Legend", "size": 20859},
+      {"name": "LegendItem", "size": 4614},
+      {"name": "LegendRange", "size": 10530}
+     ]
+    },
+    {
+     "name": "operator",
+     "children": [
+      {
+       "name": "distortion",
+       "children": [
+        {"name": "BifocalDistortion", "size": 4461},
+        {"name": "Distortion", "size": 6314},
+        {"name": "FisheyeDistortion", "size": 3444}
+       ]
+      },
+      {
+       "name": "encoder",
+       "children": [
+        {"name": "ColorEncoder", "size": 3179},
+        {"name": "Encoder", "size": 4060},
+        {"name": "PropertyEncoder", "size": 4138},
+        {"name": "ShapeEncoder", "size": 1690},
+        {"name": "SizeEncoder", "size": 1830}
+       ]
+      },
+      {
+       "name": "filter",
+       "children": [
+        {"name": "FisheyeTreeFilter", "size": 5219},
+        {"name": "GraphDistanceFilter", "size": 3165},
+        {"name": "VisibilityFilter", "size": 3509}
+       ]
+      },
+      {"name": "IOperator", "size": 1286},
+      {
+       "name": "label",
+       "children": [
+        {"name": "Labeler", "size": 9956},
+        {"name": "RadialLabeler", "size": 3899},
+        {"name": "StackedAreaLabeler", "size": 3202}
+       ]
+      },
+      {
+       "name": "layout",
+       "children": [
+        {"name": "AxisLayout", "size": 6725},
+        {"name": "BundledEdgeRouter", "size": 3727},
+        {"name": "CircleLayout", "size": 9317},
+        {"name": "CirclePackingLayout", "size": 12003},
+        {"name": "DendrogramLayout", "size": 4853},
+        {"name": "ForceDirectedLayout", "size": 8411},
+        {"name": "IcicleTreeLayout", "size": 4864},
+        {"name": "IndentedTreeLayout", "size": 3174},
+        {"name": "Layout", "size": 7881},
+        {"name": "NodeLinkTreeLayout", "size": 12870},
+        {"name": "PieLayout", "size": 2728},
+        {"name": "RadialTreeLayout", "size": 12348},
+        {"name": "RandomLayout", "size": 870},
+        {"name": "StackedAreaLayout", "size": 9121},
+        {"name": "TreeMapLayout", "size": 9191}
+       ]
+      },
+      {"name": "Operator", "size": 2490},
+      {"name": "OperatorList", "size": 5248},
+      {"name": "OperatorSequence", "size": 4190},
+      {"name": "OperatorSwitch", "size": 2581},
+      {"name": "SortOperator", "size": 2023}
+     ]
+    },
+    {"name": "Visualization", "size": 16540}
+   ]
+  }
+ ]
+}
