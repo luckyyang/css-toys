@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./modal.js"></script>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form id="login-form" class="modal">
+        jkjlk
+      </form>
+      <form id="ex5" class="modal">
+          jkjlk
+        </form>
+
+
+        <a href="#ex5"> Open modal by getting the dom id from href</a>
+        <a href="ajax.html"> Open modal by making an AJAX call</a>
+
+        <script>
+          $('#login-form').modal();
+
+          $('a').click(function(event) {
+            event.preventDefault();
+            $(this).modal();
+          });
+        <!-- </script> -->
+  </body>
+</html>
