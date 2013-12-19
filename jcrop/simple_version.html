@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" /> 
+    <title>Jcrop &raquo; Tutorials &raquo; API Demo</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.Jcrop.js"></script>
+    <link rel="stylesheet" href="./css/jquery.Jcrop.css" type="text/css" />
+    <link rel="stylesheet" href="./css/demos.css" type="text/css" />
+    <style type="text/css">
+      .optdual { position: relative; }
+      .optdual .offset { position: absolute; left: 18em; }
+      .optlist label { width: 16em; display: block; }
+      #dl_links { margin-top: .5em; }
+    </style>
+    <script type="text/javascript">
+
+      $(function(){
+
+        var jcrop_api; // Holder for the API
+        initJcrop();
+
+        function initJcrop()
+        {
+          $('#cropbox').Jcrop({},function(){
+
+            jcrop_api = this;
+            jcrop_api.animateTo([100,100,400,300]);
+          });
+        };
+
+        // Hook up the three image-swapping buttons
+        $('#img1').click(function(e) {
+          jcrop_api.setImage('demo_files/sago.jpg');
+          jcrop_api.setOptions({ bgOpacity: .6 });
+          return false;
+        });
+        $('#img2').click(function(e) {
+          // jcrop_api.setImage('demo_files/pool.jpg');
+          $('.jcrop-holder img').attr('src', 'demo_files/pool.jpg');
+          jcrop_api.setOptions({ bgOpacity: .6 });
+          return false;
+        });
+        $('#img3').click(function(e) {
+          jcrop_api.setImage('demo_files/sago.jpg',function(){
+            this.setOptions({
+              bgOpacity: 1,
+              outerImage: 'demo_files/sagomod.jpg'
+            });
+          });
+          return false;
+        });
+
+      });
+
+    </script>
+
+  </head>
+
+  <body>
+    <div id="outer">
+      <div class="jcExample">
+        <div class="article">
+
+          <h1>Jcrop - API Demo</h1>
+          <img src="demo_files/sago.jpg" id="cropbox" />
+
+          <fieldset class="requiresjcrop" style="margin: .5em 0;">
+            <legend>Change Image</legend>
+            <span>
+              <button id="img2">Flowers</button>
+              <button id="img1">Sago</button>
+              <button id="img3">Sago w/ outerImage</button>
+            </span>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
